@@ -6,7 +6,7 @@ source("dataset_divide.R")
 source("dataset_labelselect.R")
 source("create_arff.R")
 ###选择训练??? 1???2???3???4???5
-datasetindex <- 1
+datasetindex <- 2
 datasetresult = DatasetSelect(dataset.index = datasetindex)
 select.table <- datasetresult[[1]]
 ###加入根节???
